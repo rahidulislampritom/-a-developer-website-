@@ -51,12 +51,14 @@ body {
 
 /* hero section start here */
 
-.hero-section{
+.hero-section {
     background-image: url(/images/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 25px 0 45px 0;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -105,4 +107,91 @@ body {
     background: rgb(13, 19, 33);
     border: 0;
     padding: 21px 24px 21px 24px;
+}
+
+/* main section start from here */
+
+/* web development section */
+
+.web-section {
+    width: 1140px;
+    /* height: 1393px; */
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+    margin-top: 74px;
+
+}
+
+.web-section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.web-section-info>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.web-section-info>p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+
+.web-section-container-a {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 65px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    gap: 70px;
+    
+}
+
+.web-section-content-a>h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 500px;
+
+}
+
+.web-section-content-a>p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 468px;
+    margin: 16px 0 32px 0;
+}
+
+.web-section-content-a>button {
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.web-section-img-a>img {
+    width: 259.56px;
+    height: 217.01px;
 }
