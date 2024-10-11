@@ -195,3 +195,55 @@ body {
     width: 259.56px;
     height: 217.01px;
 }
+
+/* My Inspiration section start from here  */
+
+.inspiration-section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.inspiration-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Inspiration-info>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.Inspiration-info>p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin:24px 0 48px 0 ;
+
+}
+
+.inspiratin-video-container {
+    width: 1076px;
+  
+}
+
+.inspiratin-video {
+    width: 100%;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+/* My Current Target section start from here */
