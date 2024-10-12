@@ -283,10 +283,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     gap: 24px;
     margin-top: 48px;
-    /* margin-bottom: 300px; */
+
 }
 
 .current-target-info-h-two {
@@ -372,7 +372,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .next-target-title>h2 {
@@ -394,9 +394,9 @@ body {
 }
 
 .next-target-info-container {
-     width: 1129px;
+    width: 1129px;
     height: 219px;
-    
+
 }
 
 .next-target-img {
@@ -429,15 +429,115 @@ body {
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
-    margin:8px 0 24px 0 ;
+    margin: 8px 0 24px 0;
 
 }
 
 .next-target-info button {
     color: rgb(13, 19, 33);
-      font-size: 16px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     border: none;
     text-decoration-line: underline;
 }
+
+/* support section start from here */
+
+.support-section {
+    margin-top: -41px;
+}
+
+.support-content {
+    width: 1140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    gap: 21px;
+}
+
+.support-content>h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support-content>p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    width: 606px;
+
+
+}
+
+.support-input .support-text input {
+    width: 548px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    margin-right: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: 0;
+
+}
+
+.support-input .support-submit input {
+    width: 120px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+
+/* footer section start here */
+
+.footer-section {
+    width: 1440px;
+    padding: 36px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 112px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-title>h3 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.footer-img img{
+    margin-right: 24px;
+}
+
